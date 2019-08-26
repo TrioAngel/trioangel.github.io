@@ -6,7 +6,6 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 @import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Indie+Flower&display=swap");
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -9711,24 +9710,6 @@ body {
   text-decoration: none;
 }
 
-.center-part .container {
-  margin-top: 10%;
-}
-
-.center-part .container .row i {
-  border-radius: 50%;
-  background-color: #FC9416;
-  font-size: 42px;
-  padding: 5%;
-  float: left;
-  margin-top: 5px;
-}
-
-.center-part .container .row .col-sm-3 {
-  margin-left: 6%;
-  padding: 0 20px;
-}
-
 .navbar {
   position: fixed;
   top: 0;
@@ -9810,24 +9791,6 @@ body {
   text-decoration: none;
   background: linear-gradient(90deg, #1663D5, #2272E8);
   color: #ffffff;
-}
-
-.mini-container {
-  position: fixed;
-  cursor: pointer;
-  z-index: 99;
-  bottom: 25px;
-  right: 25px;
-}
-
-.firstBtn {
-  border-radius: 4px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
-  color: #414849;
-}
-
-.secondBtn, .secondNav {
-  display: none;
 }
 
 #try {
@@ -9939,217 +9902,6 @@ body {
 
 #firstStep-p a:hover {
   opacity: 0.75;
-}
-
-#teacher {
-  background: #FFFFFF;
-  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.05);
-  margin-top: 8%;
-  height: 550px;
-  margin-bottom: 5%;
-}
-
-#teacher .container {
-  padding: 0 6%;
-}
-
-.col-box {
-  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
-  border-radius: 8px;
-  text-align: center;
-  padding: 2%;
-  margin: 3%;
-  color: #414849;
-}
-
-.col-box img {
-  margin: 3% 0 5%;
-}
-
-#teacher .container h2 {
-  color: #414849;
-  font-weight: bold;
-  padding: 5% 0 1%;
-}
-
-#teacher .container h4 {
-  color: #414849;
-  font-weight: 500;
-}
-
-.col2 #teacherPart h1 {
-  color: #E3E3E3;
-  font-size: 100px;
-}
-
-.col2 #teacherPart h3 {
-  margin-top: -5%;
-  color: #E3E3E3;
-  font-size: 50px;
-}
-
-.col2 img {
-  width: 375px;
-  height: 450px;
-  display: block;
-  position: relative;
-  bottom: 180px;
-  left: 80px;
-}
-
-#courses-part {
-  color: #414849;
-}
-
-#course {
-  text-align: center;
-  font-weight: bold;
-  margin-bottom: 3%;
-}
-
-#courses-part .col {
-  background: #FFFFFF;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-  border-radius: 8px;
-  margin: 1%;
-}
-
-#courses-part .col h3 {
-  text-align: center;
-  font-weight: bold;
-  margin: 5% 0;
-}
-
-#courses-part span {
-  display: block;
-  position: relative;
-  float: right;
-  margin-left: 3%;
-  font-weight: 500;
-  padding: 1.5% 2.5%;
-  bottom: 10px;
-}
-
-span.blue {
-  background-color: #1663D5;
-  color: #FFFFFF;
-  border-radius: 100%;
-  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
-}
-
-span.gray {
-  color: #D1D1D1;
-  border: 1px solid #D1D1D1;
-  border-radius: 100%;
-}
-
-#courses-part .col h6 {
-  font-weight: bold;
-}
-
-#courses-part .col .last-p {
-  margin-bottom: 5%;
-}
-
-#courses-part .col p i {
-  color: #FC9416;
-  font-size: 10px;
-  margin-right: 2%;
-}
-
-#train {
-  color: #414849;
-  margin: 8% 0;
-}
-
-#train h1, #train h6 {
-  text-align: center;
-  margin-bottom: 3%;
-}
-
-#train h1 {
-  font-weight: bold;
-}
-
-#train .col {
-  background: #FFFFFF;
-  border-radius: 8px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-  padding: 0;
-  margin: 1%;
-}
-
-#train .col img {
-  width: 100%;
-}
-
-.mini-photo {
-  width: 50px !important;
-  display: block;
-  position: relative;
-  bottom: 60%;
-  margin-bottom: 2%;
-  left: 5%;
-  border: 2px solid #FFFFFF;
-  border-radius: 100%;
-}
-
-.col-mini h5, .col-mini p {
-  display: block;
-  position: relative;
-  bottom: 150px;
-}
-
-.col-mini-2 h5, .col-mini-2 p {
-  display: block;
-  position: relative;
-  bottom: 185px;
-}
-
-.row-mini .col {
-  height: 535px;
-}
-
-#train .col h5 {
-  font-weight: bold;
-  padding-left: 10px;
-  margin: 2% 0;
-}
-
-#train .col p {
-  padding-left: 10px;
-  margin-top: 10%;
-}
-
-#mini-img {
-  width: 60px !important;
-  display: block;
-  position: relative;
-  left: 44%;
-  bottom: 50%;
-}
-
-#mini-h6 {
-  font-family: "Indie Flower", cursive;
-  display: block;
-  position: relative;
-  width: 124px;
-  bottom: 55%;
-  color: #FFFFFF;
-  text-align: left !important;
-  left: 3%;
-}
-
-#mini-btn {
-  background: linear-gradient(90deg, #1663D5 0%, #2272E8 100%);
-  border-radius: 4px;
-  display: block;
-  position: relative;
-  left: 5%;
-  bottom: 45%;
-  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
-  border: none;
-  padding: 2%;
 }
 
 #price {
@@ -10301,4 +10053,4 @@ span.gray {
   padding-bottom: 15px;
 }
 
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=css.map */
