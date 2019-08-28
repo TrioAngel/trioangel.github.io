@@ -62,5 +62,18 @@ jQuery('img.svg').each(function(){
 // navbar
 
 
+
 //ask a question
 
+$('#firstBtn, #secondBtn').on('click', function(){
+    $('#secondBtn').toggle();
+    $('.secondNav').toggle();
+    $('#firstBtn').toggle();
+})
+
+
+//modal
+
+$('#openModal, #closeModal').click(function(){
+    $('#modal-all').toggle();
+})

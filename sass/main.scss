@@ -173,11 +173,39 @@ body{
     border-radius: 4px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
     color: #414849;
+    border: none
+} 
+
+.secondNav a{
+    width: 40px;
+    height: 40px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.16);
+    border-radius: 100%;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    padding: 0.5rem 0.5rem
 }
 
-.secondBtn, .secondNav{
-    display: none;
+.secondNav img {
+    width: 25px;
 }
+
+.secondBtn{
+    width: 40px;
+    height: 40px;
+    background-color: #414849;
+    border: none;
+    border-radius: 100%;
+    margin-left: 20px
+}
+
+.secondBtn i {
+    color: #D1D1D1
+}
+
+
+
 
 
 // ---------------try section-----------
@@ -248,14 +276,59 @@ body{
     color: #414849
 }
 
-.modal-part a{
-    text-decoration: underline;
+.modal-part u{
     color: #414849;
+    cursor: pointer;
 }
 
-.modal-part a:hover{
+.modal-part u:hover{
     opacity: 0.75;
 }
+
+#modal-all{
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 10000;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background-color: rgba(13, 43, 56, 0.5)    
+}
+
+.modal-main{
+    width: 80%;
+    margin: 9% auto;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    padding: 15px
+}
+
+.modal-main h4{
+    text-align: left;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.modal-main h4 span {
+    float: right;
+    color: #FF0000;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.modal-main i{
+    float: left;
+    color: #1663D5;
+    font-size: 25px
+}
+
+.modal-main p{
+    text-align: left;
+    margin-left: 3%;
+}
+
 
 // FirstStep Section
 

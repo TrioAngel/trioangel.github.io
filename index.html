@@ -18,8 +18,8 @@
     <header class="backSlide" id="backSlide">
         <div id="nocry">
             <nav class="navbar navbar-expand-lg backTrans">
-                <a class="navbar-brand" href="#"><img src="imgs/Layer_1.svg" alt=""></a>
-                <a class="navbar-brand displayNone" href="#"><img src="imgs/layer.png" alt=""></a>
+                <a class="navbar-brand" id="down" href="#"><img src="imgs/Layer_1.svg" alt=""></a>
+                <a class="navbar-brand displayNone" id="up" href="#"><img src="imgs/layer.png" alt=""></a>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <div class="navbar-nav number">
                         <p class="number text-center ">8 (800) 000-00-00 <br> Звонок из регионов России бесплатный</p>
@@ -106,29 +106,18 @@
 
     <!-- Ask Question section -->
     <div class="mini-container">
-        <button type="button" class="btn btn-light">Задайте вопрос <img src="imgs/help.svg" alt=""></button>
-        <button type="button" class="btn btn-dark secondBtn">Dark</button>
-        <ul class="nav flex-column secondNav">
-            <li class="nav-item">
-              <a class="nav-link" href="#">Active</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-            </li>
-            
-          </ul>
+        <button type="button" class="btn btn-light  firstBtn" id="firstBtn">Задайте вопрос <img src="imgs/help.svg"
+                alt=""></button>
+        <nav class="nav flex-column  secondNav displayNone">
+            <a class="nav-link " href="#"><img src="imgs/skype.svg" alt=""></a>
+            <a class="nav-link" href="#"><img src="imgs/messenger.svg" alt=""></a>
+            <a class="nav-link" href="#"><img src="imgs/vk-social-network-logo.svg" alt=""></a>
+            <a class="nav-link" href="#"><img src="imgs/telegram.svg" alt=""></a>
+            <a class="nav-link" href="#"><img src="imgs/viber.svg" alt=""></a>
+            <a class="nav-link" href="#"><img src="imgs/whatsapp.svg" alt=""></a>
+        </nav>
+        <button type="button" class="btn btn-dark secondBtn displayNone" id="secondBtn"><i
+                class="fa fa-times"></i></button>
     </div>
 
     <!-- --------Try section-------- -->
@@ -172,13 +161,46 @@
                 </form>
             </div>
             <div class="modal-part">
-                <p>нажимая, вы принимаете <a href="#">условия соглашения</a></p>
-
+                <p>нажимая, вы принимаете <u id="openModal">условия соглашения</u></p>
             </div>
+
         </div>
+
     </section>
 
-
+    <!-- Modal Part -->
+    <div id="modal-all">
+        <div class="modal-main">
+            <h4>Условия соглашения <span id="closeModal">&times;</span></h4>
+            <hr>
+            <i class="fa fa-info-circle"></i>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
+                into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
+                release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+                software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <p> Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical
+                Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at
+                Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a
+                Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the
+                undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et
+                Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the
+                theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor
+                sit amet..", comes from a line in section 1.10.32. </p>
+            <p> There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                alteration in some form, by injected humour, or randomised words which don't look even slightly
+                believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything
+                embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat
+                predefined chunks as necessary, making this the first true generator on the Internet. It uses a
+                dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate
+                Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition,
+                injected humour, or non-characteristic words etc.</p>
+            <p> It is a long established fact that a reader will be distracted by the readable content of a page when
+                looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution
+                of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+        </div>
+    </div>
     <!-- teacher section -->
 
     <div class="teacher" id="teacher">
