@@ -23,6 +23,7 @@ setInterval(() => {
 }, 8000);
 
 
+
 // navbar
 
 $(window).scroll(function(){
@@ -43,5 +44,5 @@ $('#firstBtn, #secondBtn').on('click', function(){
 //modal
 
 $('#openModal, #closeModal').click(function(){
-    $('#modal-all').toggle()
+    $('#modal-all').toggle();
 })
