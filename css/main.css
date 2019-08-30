@@ -9742,6 +9742,7 @@ body {
 
 #showNav {
   background: #FFFFFF none;
+  height: 80px;
 }
 
 #showNav .navbarNav {
@@ -10323,28 +10324,82 @@ span.gray {
   height: 32px;
 }
 
+.blockFeed {
+  float: left;
+  margin-right: 3%;
+  padding: 5px;
+}
+
 #skype {
+  cursor: pointer;
   border: 1px solid #00AAF2;
+  width: 36px;
+  height: 32px;
+  background: url("../imgs/skype.svg") no-repeat center;
 }
 
 #messenger {
+  cursor: pointer;
+  width: 36px;
+  height: 32px;
   border: 1px solid #1E88E5;
+  background: center no-repeat url("../imgs/messenger.svg");
 }
 
 #vk {
+  cursor: pointer;
+  width: 36px;
+  height: 32px;
   border: 1px solid #5C81B3;
+  background: center no-repeat url("../imgs/vk-social-network-logo.svg");
 }
 
 #telegram {
+  cursor: pointer;
+  width: 36px;
+  height: 32px;
   border: 1px solid #2CA5E0;
+  background: center no-repeat url("../imgs/telegram.svg");
 }
 
 #viber {
+  cursor: pointer;
+  width: 36px;
+  height: 32px;
   border: 1px solid #7D3DAF;
+  background: center no-repeat url("../imgs/viber.svg");
 }
 
 #whatsapp {
+  cursor: pointer;
+  width: 36px;
+  height: 32px;
   border: 1px solid #4CAF50;
+  background: center no-repeat url("../imgs/whatsapp.svg");
+}
+
+#skype:hover {
+  background: url("../imgs/hover-sype.svg") no-repeat center #00AAF2;
+}
+
+#messenger:hover {
+  background: url("../imgs/hover-mess.svg") no-repeat center #1E88E5;
+}
+
+#vk:hover {
+  background: url("../imgs/hover vk.svg") no-repeat center #5C81B3;
+}
+
+#telegram:hover {
+  background: url("../imgs/hover tele.svg") no-repeat center #2CA5E0;
+}
+
+#viber:hover {
+  background: url("../imgs/hover viber.svg") no-repeat center #7D3DAF;
+}
+
+#whatsapp:hover {
+  background: url("../imgs/hover-whatsapp.svg") no-repeat center #4CAF50;
 }
 
 #footer {
