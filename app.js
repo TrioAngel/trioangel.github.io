@@ -61,6 +61,10 @@ jQuery('img.svg').each(function(){
 
 // navbar
 
+$(window).scroll(function(){
+    $('#removeD').hide();
+    $('#showNav').show();
+})
 
 
 //ask a question
