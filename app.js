@@ -26,15 +26,15 @@ setInterval(() => {
 
 // navbar
 
-$(window).scroll(function(){
-    $('#removeD').hide();
-    $('#showNav').show();
+$(function(){
+    $(document).scroll(function(){
+        $('#showNav').toggleClass('displayNone', $(this).scrollTop() < 820)
+    })
 })
-
 
 //ask a question
 
-$('#firstBtn, #secondBtn').on('click', function(){
+$('#firstBtn, #secondBtn').on('click', function () {
     $('#secondBtn').toggle();
     $('.secondNav').toggle();
     $('#firstBtn').toggle();
@@ -43,6 +43,6 @@ $('#firstBtn, #secondBtn').on('click', function(){
 
 //modal
 
-$('#openModal, #closeModal').click(function(){
+$(window, '#openModal').click(function () {
     $('#modal-all').toggle();
 })
