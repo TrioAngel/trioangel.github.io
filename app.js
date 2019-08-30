@@ -43,6 +43,24 @@ $('#firstBtn, #secondBtn').on('click', function () {
 
 //modal
 
-$(window, '#openModal').click(function () {
-    $('#modal-all').toggle();
+// $('#openModal, #closeModal').click(function () {
+//     $('#modal-all').toggle();
+// })
+
+let openModal = document.querySelector('#openModal');
+let closeModal = document.querySelector('#closeModal');
+let modalAll = document.querySelector('#modal-all');
+
+openModal.addEventListener('click', openModal = () => {
+    modalAll.style.display = 'block'
+});
+
+closeModal.addEventListener('click', closeModal = () => {
+    modalAll.style.display = 'none'
+});
+
+window.addEventListener('click', clickOutside = (event) => {
+    if(event.target == modalAll){
+        modalAll.style.display = 'none'
+    }
 })
